@@ -17,11 +17,11 @@ def test_registration_email(web_browser):
 
     page.registration.click()
 
-    page.name.send_keys('Артем')
+    page.name.send_keys('Иван')
 
-    page.lastname.send_keys('Сабельфельд')
+    page.lastname.send_keys('Иванов')
 
-    page.region.send_keys('Курганская обл')
+    page.region.send_keys('Москва')
 
     page.email_or_phone.send_keys(valid_email)
 
@@ -57,11 +57,11 @@ def test_registration_phone(web_browser):
 
     page.registration.click()
 
-    page.name.send_keys('Артем')
+    page.name.send_keys('Иван')
 
-    page.lastname.send_keys('Сабельфельд')
+    page.lastname.send_keys('Иванов')
 
-    page.region.send_keys('Шадринск')
+    page.region.send_keys('Москва')
 
     page.email_or_phone.send_keys(valid_phone)
 
@@ -86,11 +86,11 @@ def test_registration_phone_negativ(web_browser):
 
     page.registration.click()
 
-    page.name.send_keys('Артем')
+    page.name.send_keys('Иван')
 
-    page.lastname.send_keys('Сабельфельд')
+    page.lastname.send_keys('Иванов')
 
-    page.region.send_keys('Шадринск')
+    page.region.send_keys('Москва')
 
     page.email_or_phone.send_keys(valid_phone)
 
