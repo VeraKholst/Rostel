@@ -21,7 +21,7 @@ def test_registration_email(web_browser):
 
     page.lastname.send_keys('Иванов')
 
-    page.region.send_keys('Москва')
+    page.region.send_keys('Московская область')
 
     page.email_or_phone.send_keys(valid_email)
 
